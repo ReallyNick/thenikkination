@@ -9,7 +9,7 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-  background-color: #f0f0f0;
+  background-color: #fffbf7;
 }
 
 html {
@@ -399,28 +399,125 @@ STEPS
 }
 
 .steps__list {
-
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .steps__item {
-    display: flex;
-    margin-bottom: 24px;
-
+  display: flex;
+  margin-bottom: 24px;
 }
 
 .steps__list--title {
-
 }
 
 .steps__numbers {
-    color: #31313191;
-    font-size: 60px;
-    margin-right: 24px;
-
+  color: #31313191;
+  font-size: 60px;
+  margin-right: 24px;
 }
 .list__01 {
- margin-left: 13px;
+  margin-left: 13px;
+}
+
+/* 
+
+PAYMENT 
+
+*/
+
+#payment {
+  margin-top: 200px;
+}
+
+.payment__container--1 {
+  width: 1200px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.payment__wrapper {
+    display: flex;
+}
+
+.payment__header {
+  font-size: 48px;
+}
+
+.payment__title {
+  font-size: 30px;
+  color: #313131;
+}
+
+.payment__price {
+  font-size: 60px;
+  color: #313131c2;
+  font-weight: 600;
+}
+
+.payment__length {
+  font-size: 20px;
+  color: #31313179;
+  font-weight: 600;
+}
+
+.payment__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.payment__items {
+  font-size: 20px;
+  color: #313131c2;
+  margin-bottom: 10px;
+}
+
+.payment_boxwrapper {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 10px #ffb4c3;
+  border-bottom: solid 5px #ffb4c3;
+  border-left: solid 1px #25252523;
+  border-right: solid 1px #25252523;
+  border-radius: 10px;
+  margin: 8px;
+  padding: 10px 0px;
+}
+
+.payment__box1 {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  border-bottom: solid 1px #25252523;
+  padding-bottom: 10px;
+}
+
+.payment__box2 {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: solid 1px #25252523;
+}
+
+.payment__box3 {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.variation {
+ background-color: #fff8b4;
 }
