@@ -14,9 +14,32 @@
   </head>
   <body>
     <section id="landing">
-      <nav>
+      <nav class="nav">
         <div class="nav__container">
-          <img class="logo" src="/assets/logo.png" alt="" />
+          <div class="nav__logo">
+            <img src="/assets/logo.png" alt="" />
+            <div class="nav__social">
+              <ul class="nav__social--links">
+                <li class="nav__social--link">
+                  <a href="https://www.facebook.com/" target="_blank"
+                    ><i class="fa-brands fa-square-facebook"></i
+                  ></a>
+                </li>
+                <li class="nav__social--link">
+                  <a href="https://twitter.com/thenikkination" target="_blank"
+                    ><i class="fa-brands fa-square-twitter"></i
+                  ></a>
+                </li>
+                <li class="nav__social--link">
+                  <a
+                    href="https://www.instagram.com/thenikkination/"
+                    target="_blank"
+                    ><i class="fa-brands fa-square-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="nav__bar">
             <ul class="nav__titles">
               <li><a href="" class="nav__link">About</a></li>
@@ -39,11 +62,25 @@
                 <i class="fa-solid fa-xmark"></i>
               </button>
               <ul class="menu__links">
-                <li><a href="" class="menu__link" onclick="closeMenu()">About</a></li>
-                <li><a href="" class="menu__link" onclick="closeMenu()">Blog</a></li>
-                <li><a href="" class="menu__link" onclick="closeMenu()">Pricing</a></li>
-                <li><a href="" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
-                <li><a href="" class="menu__link" onclick="closeMenu()">Login</a></li>
+                <li>
+                  <a href="" class="menu__link" onclick="closeMenu()">About</a>
+                </li>
+                <li>
+                  <a href="" class="menu__link" onclick="closeMenu()">Blog</a>
+                </li>
+                <li>
+                  <a href="" class="menu__link" onclick="closeMenu()"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="menu__link" onclick="closeMenu()"
+                    >Contact Us</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+                </li>
                 <li>
                   <div class="button menu__signup" id="button-2">
                     <div id="slide"></div>
@@ -51,6 +88,7 @@
                   </div>
                 </li>
               </ul>
+            </div>
           </div>
         </div>
       </nav>
@@ -266,95 +304,142 @@
         </div>
       </div>
     </section>
-  </body>
-</html>
 
-<!-- PAYMENT  -->
+    <!-- PAYMENT  -->
 
-<section id="payment">
-  <div class="payment__container--1">
-    <div class="payment__text">
-      <h2><span class="colored__text">Purchase</span></h2>
-      <h1 class="payment__header">
-        Buy my <span class="colored__text">Shit</span>
-      </h1>
+    <section id="payment">
+      <div class="payment__container--1">
+        <div class="payment__text">
+          <h2><span class="colored__text">Purchase</span></h2>
+          <h1 class="payment__header">
+            Buy my <span class="colored__text">Shit</span>
+          </h1>
 
-      <div class="payment__wrapper">
-        <div class="payment_boxwrapper">
-          <div class="payment__box1">
-            <span class="payment__title">PERSONAL</span>
-            <span class="payment__price">$18.99</span>
-            <span class="payment__length">Monthly</span>
-          </div>
-          <div class="payment__box2">
-            <span class="payment__title">For Individuals</span>
-            <ul class="payment__list">
-              <li class="payment__items">30 Templates</li>
-              <li class="payment__items">7 Landing Pages</li>
-              <li class="payment__items">12 Internal Pages</li>
-              <li class="payment__items">Basic Assistance</li>
-            </ul>
-          </div>
-          <div class="payment__box3">
-            <div class="quality__button--wrapper">
-              <div class="button" id="button-2">
-                <div id="slide"></div>
-                <a href="#">Buy Now</a>
+          <div class="payment__wrapper">
+            <div class="payment_boxwrapper variation1">
+              <div class="payment__box1">
+                <span class="payment__title">Basic</span>
+                <span class="payment__price">$5.99</span>
+                <span class="payment__length">Monthly</span>
+              </div>
+              <div class="payment__box2">
+                <span class="payment__title"
+                  >Just the <span class="colored__text">Basics</span></span
+                >
+                <ul class="payment__list">
+                  <li class="payment__items">30 Templates</li>
+                  <li class="payment__items">7 Landing Pages</li>
+                  <li class="payment__items">12 Internal Pages</li>
+                  <li class="payment__items">Basic Assistance</li>
+                </ul>
+              </div>
+              <div class="payment__box3">
+                <div class="quality__button--wrapper">
+                  <div class="button" id="button-2">
+                    <div id="slide"></div>
+                    <a href="#">Buy Now</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="payment_boxwrapper variation">
-          <div class="payment__box1">
-            <span class="payment__title">PERSONAL</span>
-            <span class="payment__price">$18.99</span>
-            <span class="payment__length">Monthly</span>
-          </div>
-          <div class="payment__box2">
-            <span class="payment__title">For Individuals</span>
-            <ul class="payment__list">
-              <li class="payment__items">30 Templates</li>
-              <li class="payment__items">7 Landing Pages</li>
-              <li class="payment__items">12 Internal Pages</li>
-              <li class="payment__items">Basic Assistance</li>
-            </ul>
-          </div>
-          <div class="payment__box3">
-            <div class="quality__button--wrapper">
-              <div class="button" id="button-2 ">
-                <div id="slide "></div>
-                <a href="# " class="">Buy Now</a>
+            <div class="payment_boxwrapper variation2">
+              <div class="payment__box1">
+                <span class="payment__title">Premium</span>
+                <span class="payment__price">$7.99</span>
+                <span class="payment__length">Monthly</span>
+              </div>
+              <div class="payment__box2">
+                <span class="payment__title"
+                  >The goods are
+                  <span class="colored__text">Premium</span></span
+                >
+                <ul class="payment__list">
+                  <li class="payment__items">30 Templates</li>
+                  <li class="payment__items">7 Landing Pages</li>
+                  <li class="payment__items">12 Internal Pages</li>
+                  <li class="payment__items">Basic Assistance</li>
+                </ul>
+              </div>
+              <div class="payment__box3">
+                <div class="quality__button--wrapper">
+                  <div class="button" id="button-2">
+                    <div id="slide"></div>
+                    <a href="#">Buy Now</a>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="payment_boxwrapper">
-          <div class="payment__box1">
-            <span class="payment__title">PERSONAL</span>
-            <span class="payment__price">$18.99</span>
-            <span class="payment__length">Monthly</span>
-          </div>
-          <div class="payment__box2">
-            <span class="payment__title">For Individuals</span>
-            <ul class="payment__list var">
-              <li class="payment__items">30 Templates</li>
-              <li class="payment__items">7 Landing Pages</li>
-              <li class="payment__items">12 Internal Pages</li>
-              <li class="payment__items">Basic Assistance</li>
-            </ul>
-          </div>
-          <div class="payment__box3">
-            <div class="quality__button--wrapper">
-              <div class="button" id="button-2">
-                <div id="slide"></div>
-                <a href="#">Buy Now</a>
+            <div class="payment_boxwrapper variation3">
+              <div class="payment__box1">
+                <span class="payment__title">Ultimate</span>
+                <span class="payment__price">$9.99</span>
+                <span class="payment__length">Monthly</span>
+              </div>
+              <div class="payment__box2">
+                <span class="payment__title"
+                  >For the <span class="colored__text">Power User</span></span
+                >
+                <ul class="payment__list var">
+                  <li class="payment__items">30 Templates</li>
+                  <li class="payment__items">7 Landing Pages</li>
+                  <li class="payment__items">12 Internal Pages</li>
+                  <li class="payment__items">Basic Assistance</li>
+                </ul>
+              </div>
+              <div class="payment__box3">
+                <div class="quality__button--wrapper">
+                  <div class="button" id="button-2">
+                    <div id="slide"></div>
+                    <a href="#">Buy Now</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <!-- <ul class="footer__list">
+  <li class="footer__link">30 Templates</li>
+  <li class="footer__link">30 Templates</li>
+  <li class="footer__link">30 Templates</li>
+  <li class="footer__link">30 Templates</li>
+  <li class="footer__link">30 Templates</li>
+</ul> -->
+    <footer>
+      <div class="footer__container">
+        <img class="footer__logo" src="/assets/logo.png" alt="" />
+
+        <span class="footer__copyright"
+          >© 2022 NikkiNation Inc. All rights Reserved.</span
+        >
+
+        <div class="footer__social">
+          <ul class="footer__social--links">
+            <li class="footer__social--link">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </li>
+            <li class="footer__social--link">
+              <a href="https://twitter.com/thenikkination" target="_blank">
+                <i class="fa-brands fa-square-twitter"></i>
+              </a>
+            </li>
+            <li class="footer__social--link">
+              <a
+                href="https://www.instagram.com/thenikkination/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-square-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
