@@ -73,7 +73,6 @@ h3 {
   display: flex;
   width: 180px;
   align-items: center;
-
 }
 
 .nav__container {
@@ -614,6 +613,44 @@ PAYMENT
   );
 }
 
+/*
+
+CONTACT
+
+*/
+
+.contact__container {
+  width: 100%;
+  height: 400px;
+  margin: 150px 0 0 0;
+  background-color: #ffb4c3;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #ffffff83;
+}
+
+.contact__list--wrapper {
+  width: 800px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact__link {
+  margin: 10px 0 0 0;
+}
+
 /* 
 
 FOOTER 
@@ -622,8 +659,8 @@ FOOTER
 
 .footer__container {
   display: flex;
-  margin-top: 150px;
   height: 300px;
+  width: 100%;
   background-color: #ffb4c3;
   align-items: center;
   flex-direction: column;
@@ -654,7 +691,7 @@ FOOTER
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   h1 {
     font-size: 48px;
   }
